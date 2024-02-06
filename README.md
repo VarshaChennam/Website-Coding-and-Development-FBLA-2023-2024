@@ -1,5 +1,7 @@
 # Website-Coding-and-Development-FBLA-2023-2024
 
+https://www.notion.so/FBLA-To-Do-List-Website-713ea002866b45c6b13a20db35c32138?pvs=4
+
 Rubric - https://connect.fbla.org/headquarters/files/High%20School%20Competitive%20Events%20Resources/Individual%20Guidelines/Presentation%20Events/Website-Coding--Development.pdf
 
 https://youtu.be/KAG5wNPdoTw?si=P2qyOtO2dqwnO_vH - 3 Pic Scroll Website
