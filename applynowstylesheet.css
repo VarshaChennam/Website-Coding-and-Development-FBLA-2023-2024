@@ -1,0 +1,176 @@
+/*
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:bisque;
+}
+
+.container{
+    position: relative;
+    max-width: 900px;
+    width: 100%;
+    border-radius: 6px;
+    padding:30px;
+    margin: 0 15px;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+
+}
+
+.container header{
+    font-size: 20px;
+    font-weight: 600;
+    color:#333 ;
+
+}
+
+.container header::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    height: 9px;
+    width: 27px;
+    border-radius: 8px;
+    background-color: bisque;
+}
+
+
+
+.container form{
+    position: relative;
+    margin-top: 16px;
+    min-height: 490px;
+    background-color: #fff;
+}
+.container form .details{
+    margin-top: 10px;
+}
+
+.container form .title{
+    display: block
+    font-size: 10px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    margin: 6px 0;
+    color: #333;
+}
+.container form .fields{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    
+}
+form .fields .input-fields{
+    display: flex;
+
+    width: calc(100% /3 -15px);
+    flex-direction: column;
+    margin: 4px 0;
+
+
+}
+
+.input-field label{
+    font-size: 12px;
+    font-weight: 500;
+    color: #2e2e2e;
+}
+
+.input-field input{
+    outline: none;
+    border: 1pt sl,id #aaa;
+    padding: 15px; 
+    height: 42px;
+    margin: 8px 0;
+
+}*/
+*{
+margin: 0;
+padding:0;
+box-sizing: border-box;
+font-family:'Poppins', sans-serif
+}
+body{
+min-height: 100vh;
+min-width: 80vb;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color:bisque;
+}
+
+
+.apply-box{
+    max-width: 600px;
+    padding: 20px;
+
+    margin: 0px auto;
+    margin-top: 50px;
+    background: #fff;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+}
+
+.title-small{
+    font-size: 20px;
+}
+
+.form-container{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+
+}
+
+label{font-size:15px ;  margin-bottom: 5px;}
+
+input, select, text{
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-size: 15px;
+}
+input:focus{
+    outline-color: burlywood;
+}
+
+.button-container{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+button{
+    background-color: bisque;
+    border: transparent solid 2px;
+    color: white;
+    border-radius: 8px;
+}
+
+button:hover{
+    background-color: burlywood;
+    border: 2px solid burlywood;
+    transition: 0.3 ease-out;
+    cursor: pointer;
+}
+
+.textarea-control {
+    grid-column: 1/ span 2;
+}
+.textarea-control{
+    width: 100%
+}
