@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background-image: url(image/websitebackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-container {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+section {
+    height: 100vh;
+    scroll-snap-align: start;
+    text-align: center;
+
+}
+
+h1 {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-size: 50px;
+    padding-top: 125px;
+}
+
+p {
+    padding-top: 40px;
+    font-size: 20px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+ul {
+    padding-top: 40px;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 75px;
+    margin-right: 45px;
+}
+
+.row-points {
+    display: grid;
+    row-gap: 50px;
+    grid-template-columns: auto auto auto;
+    background-color: #fff;
+    padding: 30px;
+    background-color: #fff;
+}
+
+section .one {
+    background: linear-gradient(rgba(0,0,0,0.67),rgba(0,0,0,0.67));
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+.one h1 {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 100px;
+    text-align: center;
+
+}
+
+
+section .one .img {
+    width: 100%;
+    height: auto;
+}
+
+.two {
+    background: linear-gradient(rgb(179,174,170),rgb(122, 91, 120));
+    text-align: center;
+}
+
+.three {
+    background: linear-gradient(rgb(122, 91, 120),white);
+}
+
+.four {
+    background: linear-gradient(white, grey);
+}
+
+.five {
+    background: linear-gradient(grey, rgb(122, 91, 120));
+}
+
+html { 
+    scroll-behavior: smooth;
+}
+
+.one button {
+    font-size: 15px;
+    padding: 20px 40px;
+    font-family: ;
+    background:#d1cdd0;
+    border: 0;
+    outline: 0;
+    margin-top: 40px;
+    border-radius: 50px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s; 
+}
+
+.one button:hover {
+    transform: translateY(-10px);
+    background-color: var(--clr-accent);
+    color: var(--clr-light);
+}
+
+.one button:last-child {
+    background: #eeeaee;
+    color: #fff;
+}
+
+.two p {
+    color: black;
+}
